@@ -53,7 +53,7 @@ Development Plan:
 ${development_plan}`
 
     // Create a chat with v0 API
-    const chatResponse = await fetch("https://api.v0.dev/chats", {
+    const chatResponse = await fetch("https://api.v0.dev/v1/chats", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
